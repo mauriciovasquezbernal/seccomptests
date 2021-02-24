@@ -1,0 +1,25 @@
+Examples are taken from:
+ https://man7.org/tlpi/code/online/all_files_by_chapter.html
+
+At the end of the html site, there is a link to download:
+ https://man7.org/tlpi/code/online/dist/sockets/scm_functions.c.html
+ https://man7.org/tlpi/code/online/dist/sockets/scm_functions.h.html
+ https://man7.org/tlpi/code/online/dist/seccomp/seccomp_user_notification.c.html
+ 
+Also, there is another example, in case it is useful:
+ https://man7.org/tlpi/code/online/dist/seccomp/seccomp_unotify_mkdir.c.html
+ https://man7.org/tlpi/code/online/dist/seccomp/seccomp_functions.c.html
+ https://man7.org/tlpi/code/online/dist/seccomp/seccomp_functions.h.html
+ https://man7.org/tlpi/code/online/dist/lib/tlpi_hdr.h.html
+ https://man7.org/tlpi/code/online/dist/lib/get_num.h.html
+ https://man7.org/tlpi/code/online/dist/lib/get_num.c.html
+ https://man7.org/tlpi/code/online/dist/lib/error_functions.h.html
+ https://man7.org/tlpi/code/online/dist/lib/error_functions.c.html
+ https://man7.org/tlpi/code/online/dist/lib/ename.c.inc.html
+
+
+To compile the examples you can do:
+ 
+	make seccomp_unotify_mkdir
+	make seccomp_user_notification
+
